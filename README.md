@@ -1,2 +1,67 @@
-AvrMiniCopter-images
-====================
+MIT License
+
+Copyright (C) 2014 Gregory Dymarek (gregd72002@gmail.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+*********************
+
+***** AvrMiniCopter *****
+
+
+WHAT IS IT
+===========================
+This is an image of AvrMiniCopter, which will turn your Raspberry Pi into a simple quadcopter controller board with the help of Arduino Pro Mini. This is a custom linux build that contains everything you need to setup and fly a X quadcopter.
+
+
+
+MAIN FEATURES
+===========================
+- very fast (boot time of around 2-3sec)
+- small size (~150Mbytes)
+- stabilization done in 200Hz (limit of MPU6050)
+- WWW configurable (i.e. you can adjust anything by using your phone)
+- Camera support for taking pictures and videos
+- Support for quadcopters in X configuration of any size
+- Bluetooth and USB controller support (i.e. PS3 gamepad)
+- 2 fly modes - Auto-level & Acro
+- Altitude hold
+- Log charting
+- ESC calibration
+- Based on MPU6050/MPU9150 gyroscope
+- BMP085 / BMP180 barometer
+- Flight log
+- Out of box bluetooth connectivity (PAN) for receiving flight logs, accessing the file system (NFS and SSH), browsing videos and pictures
+
+
+REQUIREMENTS
+===========================
+- Raspberry Pi (tested on model A and B as well as Odroid-W)
+- SD card minimum 256MB size
+- PS3 controller
+- Bluetooth 2.1 USB dongle
+- AVR board (tested on Arduino Pro Mini 16MHz)
+- MPU6050/MPU9150 breakout board
+- BMP085/BMP180 breakout board
+- Quadcopter
+	- Frame
+	- 4 x ESC (if without BEC than external UBEC is needed)
+	- 4 x Motors
+	- Battery
+	- some cables
+
+
+WIRING
+===========================
+Read: https://github.com/rpicopter/AvrMiniCopter/wiki/Wiring
+
+
+QUICK START
+===========================
+Read: https://github.com/rpicopter/AvrMiniCopter/wiki/Getting-started
+
+
