@@ -15,12 +15,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 WHAT IS IT
 ===========================
-This is an image of AvrMiniCopter, which will turn your Raspberry Pi into a simple quadcopter controller board with the help of Arduino Pro Mini. This is a custom linux build that contains everything you need to setup and fly a X quadcopter.
+This is an image of AvrMiniCopter, which will turn your Raspberry Pi or any SPI capable device into a simple quadcopter controller board with the help of Arduino Pro Mini. This is a custom linux build that contains everything you need to setup and fly a X quadcopter.
 
 
 
 MAIN FEATURES
 ===========================
+- 2 fly modes - Auto-level & Acro
+- Altitude hold
+- learner mode (attach 2 controller simultaneously - one for the teacher and one for the learner)
 - very fast (boot time of around 2-3sec)
 - small size (~150Mbytes)
 - stabilization done in 200Hz (limit of MPU6050)
@@ -28,8 +31,6 @@ MAIN FEATURES
 - Camera support for taking pictures and videos
 - Support for quadcopters in X configuration of any size
 - Bluetooth and USB controller support (i.e. PS3 gamepad)
-- 2 fly modes - Auto-level & Acro
-- Altitude hold
 - Log charting
 - ESC calibration
 - Based on MPU6050/MPU9150 gyroscope
