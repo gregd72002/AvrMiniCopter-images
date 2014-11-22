@@ -8,14 +8,14 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-*********************
+*************************
 
 ***** AvrMiniCopter *****
 
 
 WHAT IS IT
 ===========================
-This is an image of AvrMiniCopter, which will turn your Raspberry Pi or any SPI capable device into a simple quadcopter controller board with the help of Arduino Pro Mini. This is a custom linux build that contains everything you need to setup and fly a X quadcopter.
+This is an image of AvrMiniCopter, which will turn your Raspberry Pi or any SPI capable device into a quadcopter controller with the help of Arduino Pro Mini. This is a custom linux build that contains everything you need to setup and fly a quadcopter in X configuration.
 
 
 
@@ -24,7 +24,7 @@ MAIN FEATURES
 - 2 fly modes - Auto-level & Acro
 - Altitude hold
 - learner mode (attach 2 controller simultaneously - one for the teacher and one for the learner)
-- very fast (boot time of around 2-3sec)
+- fast (boot time of around 2-3sec)
 - small size (~150Mbytes)
 - stabilization done in 200Hz (limit of MPU6050)
 - WWW configurable (i.e. you can adjust anything by using your phone)
@@ -42,9 +42,9 @@ MAIN FEATURES
 
 REQUIREMENTS
 ===========================
-- Raspberry Pi (tested on model A and B as well as Odroid-W)
+- Raspberry Pi (tested on model A and B and Odroid-W)
 - SD card minimum 256MB size
-- PS3 controller
+- PS3 controller (you can use your keyboard if you really want)
 - Bluetooth 2.1 USB dongle
 - AVR board (tested on Arduino Pro Mini 16MHz)
 - MPU6050/MPU9150 breakout board
