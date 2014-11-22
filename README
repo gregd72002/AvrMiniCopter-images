@@ -32,6 +32,7 @@ MAIN FEATURES
 - Support for quadcopters in X configuration of any size
 - Bluetooth and USB controller support (i.e. PS3 gamepad)
 - Log charting
+- Live/real-time charting 
 - ESC calibration
 - Based on MPU6050/MPU9150 gyroscope
 - BMP085 / BMP180 barometer
