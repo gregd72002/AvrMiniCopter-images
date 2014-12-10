@@ -15,8 +15,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 WHAT IS IT
 ===========================
-This is an image of AvrMiniCopter, which will turn your Raspberry Pi or any SPI capable device into a quadcopter controller with the help of Arduino Pro Mini. This is a custom linux build that contains everything you need to setup and fly a quadcopter in X configuration.
+AvrMiniCopter will turn your Raspberry Pi or any SPI capable device into a quadcopter controller with the help of Arduino Pro Mini.
 
+This repository contains precompiled AvrMiniCopter: 
+- raspberrypi.zip - Raspberry Pi image, a custom linux build that contains programs you need to setup and fly a quadcopter
+- arduino.hex - Arduino Pro Mini firmware 
 
 
 MAIN FEATURES
@@ -25,27 +28,28 @@ MAIN FEATURES
 - Altitude hold
 - learner mode (attach 2 controller simultaneously - one for the teacher and one for the learner)
 - fast (boot time of around 2-3sec)
-- small size (~150Mbytes)
-- stabilization done in 200Hz (limit of MPU6050)
+- small size (~200Mbytes for RPi image and <32Kbytes for arduino image)
+- stabilization done in 200Hz (limit of MPU6050 DMP)
 - WWW configurable (i.e. you can adjust anything by using your phone)
 - Camera support for taking pictures and videos
 - Support for quadcopters in X configuration of any size
 - Bluetooth and USB controller support (i.e. PS3 gamepad)
+- Wifi
 - Log charting
 - Live/real-time charting 
 - ESC calibration
 - Based on MPU6050/MPU9150 gyroscope
 - BMP085 / BMP180 barometer
 - Flight log
-- Out of box bluetooth connectivity (PAN) for receiving flight logs, accessing the file system (NFS and SSH), browsing videos and pictures
+- Out of box bluetooth (PAN) and WIFI connectivity for receiving flight logs, accessing the file system (NFS and SSH), browsing videos and pictures
 
 
 REQUIREMENTS
 ===========================
 - Raspberry Pi (tested on model A and B and Odroid-W)
 - SD card minimum 256MB size
-- PS3 controller (you can use your keyboard if you really want)
-- Bluetooth 2.1 USB dongle
+- optionally PS3 controller with Bluetooth 2.1 USB dongle (you can use your keyboard if you really want)
+- optionally Wifi USB dongle
 - AVR board (tested on Arduino Pro Mini 16MHz)
 - MPU6050/MPU9150 breakout board
 - BMP085/BMP180 breakout board
