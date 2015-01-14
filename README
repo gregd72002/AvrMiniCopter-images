@@ -27,7 +27,7 @@ MAIN FEATURES
 - 2 fly modes - Auto-level & Acro
 - Altitude hold
 - learner mode (attach 2 controller simultaneously - one for the teacher and one for the learner)
-- FPV (with Android device)
+- HD FPV (with Android device)
 - Wifi support
 - fast (boot time of around 2-3sec)
 - small size (~200Mbytes for RPi image and <32Kbytes for arduino image)
