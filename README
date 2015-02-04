@@ -47,7 +47,7 @@ MAIN FEATURES
 
 REQUIREMENTS
 ===========================
-- Raspberry Pi (tested on model A and B and Odroid-W)
+- Raspberry Pi or Odroid (tested on model A and B and Odroid-W)
 - SD card minimum 256MB size
 - optionally PS3 controller with Bluetooth 2.1 USB dongle (you can use your keyboard if you really want)
 - optionally Wifi USB dongle and an Android device
