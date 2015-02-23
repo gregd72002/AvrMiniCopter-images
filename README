@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (C) 2014 Gregory Dymarek (gregd72002@gmail.com)
+Copyright (C) 2015 Gregory Dymarek (gregd72002@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -27,13 +27,14 @@ MAIN FEATURES
 - 2 fly modes - Auto-level & Acro
 - Altitude hold
 - learner mode (attach 2 controller simultaneously - one for the teacher and one for the learner)
-- HD FPV (with Android device)
+- HD FPV
 - Wifi support
 - fast (boot time of around 2-3sec)
 - small size (~200Mbytes for RPi image and <32Kbytes for arduino image)
 - stabilization done in 200Hz (limit of MPU6050 DMP)
 - WWW configurable (i.e. you can adjust anything by using your phone)
 - Camera support for taking pictures and videos
+- Video storage
 - Support for quadcopters in X configuration of any size
 - Bluetooth and USB controller support (i.e. PS3 gamepad)
 - Log charting
