@@ -15,7 +15,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 WHAT IS IT
 ===========================
-AvrMiniCopter will turn your Raspberry Pi or any SPI capable device into a quadcopter controller with the help of Arduino Pro Mini.
+AvrMiniCopter will turn your Odroid-W/Raspberry Pi or any SPI capable device into a quadcopter controller with the help of Arduino Pro Mini.
 
 This repository contains precompiled AvrMiniCopter: 
 - raspberrypi.zip - Raspberry Pi image, a custom linux build that contains programs you need to setup and fly a quadcopter
@@ -70,5 +70,7 @@ Read: If you do not know AvrMiniCopter please refer to the wiki: https://github.
 
 MEDIA
 ===========================
-https://raw.githubusercontent.com/rpicopter/AvrMiniCopter-wiki/master/images/P1030881.jpg
 https://www.youtube.com/watch?v=lyR4wM2C4sA
+https://raw.githubusercontent.com/rpicopter/AvrMiniCopter-wiki/master/images/P1030881.jpg
+https://drive.google.com/folderview?id=0B1EN5jc2aDarSlZqWWJTLWhTZkE&usp=drive_web
+
