@@ -41,7 +41,7 @@ MAIN FEATURES
 - Live/real-time charting 
 - ESC calibration
 - Based on MPU6050/MPU9150 gyroscope
-- BMP085 / BMP180 barometer
+- MS5611 / BMP085 / BMP180 barometer
 - Flight log
 - Out of box bluetooth (PAN) and WIFI connectivity for receiving flight logs, accessing the file system (NFS and SSH), browsing videos and pictures
 
@@ -54,7 +54,7 @@ REQUIREMENTS
 - optionally Wifi USB dongle and an Android device
 - AVR board (tested on Arduino Pro Mini 16MHz)
 - MPU6050/MPU9150 breakout board
-- BMP085/BMP180 breakout board
+- MS5611/BMP085/BMP180 breakout board
 - Quadcopter
 	- Frame
 	- 4 x ESC (if without BEC than external UBEC is needed)
